@@ -1,6 +1,7 @@
 ﻿namespace Creational_FactoryMethod
 {
-    // 생성(Creational) - 팩토리 메서드(Factory Method)
+    /* 생성(Creational) - 팩토리 메서드(Factory Method) */
+
     // 객체를 생성하는 방법을 해당 클래스를 상속 받는 클래스에서 명시하도록 합니다.
     // 객체를 생성(인스턴스) 할때 인스턴스를 어떤 타입(Class)으로 할지를 서브 클래스가 결정하도록 위임합니다.
 
