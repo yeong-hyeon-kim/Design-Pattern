@@ -31,7 +31,7 @@
     /// </summary>
     public class ProtoTypeFactory
     {
-       private static List<ProtoType> protoTypes = new List<ProtoType>();
+        private static List<ProtoType> protoTypes = new List<ProtoType>();
 
         /// <summary>
         /// Factory 생성 시 프로토타입에 해당하는 인스턴스를 미리 만들어서 등록합니다.
