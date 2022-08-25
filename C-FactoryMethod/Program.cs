@@ -85,7 +85,7 @@
 
             return new Ractangle();
         }
-    } 
+    }
 
     /// <summary>
     /// ConcreteCreator : Creator Shpae를 상속받아 ConcreteProduct Ractangle을 구현하는 메서드가 있는 클래스
