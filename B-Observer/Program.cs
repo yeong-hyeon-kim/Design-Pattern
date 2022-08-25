@@ -1,5 +1,11 @@
 ﻿namespace Behavioral_Observer
 {
+    /* 행위(Behavioral) - 옵저버(Observer) */
+    // 상태가 변하면 다른 객체들에게 알려 자동으로 내용이 갱신되는 방식 입니다. 
+
+    // Subject : 객체(유튜버)는 자신 상태가 변하면 Observer : 객체(구독자)들에게 알려줍니다.
+    // Subject : 객체(유튜버)는 구독하기, 구독 해지 방법을 알려 줘야하고 알림을 보낼 수 있는 방법(메소드)을 반드시(인터페이스로 강제)알려줘야한다.
+
     public interface IObserver
     {
         void Update(Object obj);
@@ -110,14 +116,14 @@
     {
         static void Main()
         {
-            // 구독하는 객체가 없으므로 알림이 안감.
+            // 구독하는 객체가 없으므로 알림이 가지 않습니다.
             Youtuber youtuber = new Youtuber();
 
-            // 초기화 동시에 구독.
+            // 초기화 동시에 구독합니다..
             DisplayContents display = new DisplayContents(youtuber);
             EmailContents email = new EmailContents(youtuber);
-            
-            // 구독 이후 변화.
+
+            // 구독 이후 변화합니다.
             youtuber.CreateContent();
 
             Thread.Sleep(500);
