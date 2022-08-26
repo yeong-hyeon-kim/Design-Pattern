@@ -27,7 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B-Observer", "B-Observer\B-Observer.csproj", "{C8D2C8BC-2B42-43DA-8475-3A6D65973B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-Strategy", "B-Strategy\B-Strategy.csproj", "{DCA02474-5225-42A8-83C0-DD2131187EF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B-Strategy", "B-Strategy\B-Strategy.csproj", "{DCA02474-5225-42A8-83C0-DD2131187EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-Iterator", "B-Iterator\B-Iterator.csproj", "{3A270902-1D50-40C1-A477-FA185FE895A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{DCA02474-5225-42A8-83C0-DD2131187EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCA02474-5225-42A8-83C0-DD2131187EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCA02474-5225-42A8-83C0-DD2131187EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A270902-1D50-40C1-A477-FA185FE895A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A270902-1D50-40C1-A477-FA185FE895A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A270902-1D50-40C1-A477-FA185FE895A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A270902-1D50-40C1-A477-FA185FE895A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{ADACB9B6-AA8A-4CDA-95AE-60796734A4A8} = {FA73A0EC-969F-4ACC-96C7-F884D7A191FC}
 		{C8D2C8BC-2B42-43DA-8475-3A6D65973B33} = {E9C9641F-301D-4347-A50C-6942FB8642B6}
 		{DCA02474-5225-42A8-83C0-DD2131187EF2} = {E9C9641F-301D-4347-A50C-6942FB8642B6}
+		{3A270902-1D50-40C1-A477-FA185FE895A5} = {E9C9641F-301D-4347-A50C-6942FB8642B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E216F6C7-A468-4212-9806-D210D2588F55}
